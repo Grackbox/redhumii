@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Videochat/",
+  base: "/redhumii/",
   // server: {
   //   host: "192.168.100.3",
   // },
