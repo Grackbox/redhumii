@@ -5,7 +5,7 @@ import { useDeviceManager } from "./useDevice";
 import { isDeviceListGuard } from "./utils";
 import DeviceSelector from "./DeviceSelector";
 
-const webSocketUrl = "ws://localhost:8090/ws";
+const webSocketUrl = "ws://192.168.100.2:8090/ws";
 
 export const Call = () => {
   const {
