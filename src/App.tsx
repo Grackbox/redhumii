@@ -6,13 +6,13 @@ import { Call } from "./Call";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/redhumii">
       <Routes>
         <Route path="/" element={<Home />} />
 
         <Route path="/call" element={<Call />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
